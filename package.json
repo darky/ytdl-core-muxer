@@ -1,6 +1,6 @@
 {
-  "name": "ytdl-core-muxer",
-  "version": "1.0.1",
+  "name": "ytdl-core-muxer-by-darky",
+  "version": "1.0.2",
   "description": "An wrapper that muxes the best video and audio from ytdl-core",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redbrain/ytdl-core-muxer.git"
+    "url": "git+https://github.com/darky/ytdl-core-muxer.git"
   },
   "keywords": [
     "ytdl-core",
@@ -23,9 +23,9 @@
   "author": "redbrain",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/redbrain/ytdl-core-muxer/issues"
+    "url": "https://github.com/darky/ytdl-core-muxer/issues"
   },
-  "homepage": "https://github.com/redbrain/ytdl-core-muxer#readme",
+  "homepage": "https://github.com/darky/ytdl-core-muxer#readme",
   "dependencies": {
     "ffmpeg-static": "*",
     "ytdl-core": "*"
