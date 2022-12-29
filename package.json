@@ -1,6 +1,6 @@
 {
   "name": "ytdl-core-muxer-by-darky",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An wrapper that muxes the best video and audio from ytdl-core",
   "main": "index.js",
   "scripts": {

@@ -17,6 +17,7 @@ const ytmux = (link, options = {}) => {
     ytdl.getInfo(link, options).then(info => {
         audioStream = ytdl.downloadFromInfo(info, { quality: 'highestaudio', ...options });
         videoStream = ytdl.downloadFromInfo(info, { quality: 'highestvideo', ...options });
+        videoStream.on('progress', (...args) => result.emit('progress', ...args));
         // create the ffmpeg process for muxing
         ffmpegProcess = cp.spawn(ffmpegPath, [
             // supress non-crucial messages
