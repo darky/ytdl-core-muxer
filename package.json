@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/darky/ytdl-core-muxer#readme",
   "dependencies": {
-    "ffmpeg-static": "*",
-    "ytdl-core": "*"
+    "@distube/ytdl-core": "*",
+    "ffmpeg-static": "*"
   }
 }
