@@ -1,12 +1,12 @@
 
 /*/ //////////////////////////////////////////////////////////////////
-\*\ ytdl-core-muxer: mostly copied from the ytdl-core example code :) 
+\*\ ytdl-core-muxer: mostly copied from the ytdl-core example code :)
 \*\ credit and thanks for those authors: fent, TimeForANinja, coolaj86
 /*/ //////////////////////////////////////////////////////////////////
 
 
 // require all the things!
-const ytdl = require('ytdl-core');
+const ytdl = require('@distube/ytdl-core');
 const ffmpegPath = require('ffmpeg-static');
 const cp = require('child_process');
 const stream = require('stream');
